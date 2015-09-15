@@ -1,6 +1,7 @@
 // Quick Union: Need integer array id[] of size N.
 // id[i] is parent of i.
 // Root of i is id[id[...id[i]...]].
+// Don't need to search using for loops.
 public class QuickUnionUF {
 
   private int[] id;
@@ -24,6 +25,4 @@ public class QuickUnionUF {
     int j = root(q);
     id[i] = j;
   }
-
-
 }
