@@ -17,7 +17,9 @@ public class ThreeSum
 
   public static void main(String[] args)
   {
-    int[] a = In.readInts(args[0]);
-    StdOut.println(count(a));
+    // int[] a = In.readInts(args[0]);
+    // Stopwatch stopwatch = new Stopwatch();
+    // StdOut.println(count(a));
+    // stopwatch.elapsedTime();
   }
 }
